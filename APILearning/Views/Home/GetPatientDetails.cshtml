@@ -1,0 +1,108 @@
+﻿@model APILearning.Helpers.Demographics
+
+<div>
+    <h4>Demographics</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TitleCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TitleCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Forename)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Forename)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Othernames)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Othernames)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullName)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Postcode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Postcode)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
